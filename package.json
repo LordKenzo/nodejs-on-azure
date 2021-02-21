@@ -4,9 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "standard": "standard",
+    "standard:fix": "standard --fix"
   },
   "keywords": [],
   "author": "Lorenzo Franceschini <lordkenzo@outlook.it> (https://lorenzofranceschini.it)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
 }
